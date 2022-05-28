@@ -22,11 +22,13 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li aria-disabled="true"><span class="dropdownItem">Animes</span></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">My Hero Academia</a></li>
-                        <li><a class="dropdown-item" href="#">Violet Evergarden</a></li>
-                        <li><a class="dropdown-item" href="#">Death Note</a></li>
-                        <li><a class="dropdown-item" href="#">Spy x family</a></li>
-                        <li><a class="dropdown-item" href="#">Tensei Shitara Slime</a></li>
+                        <div id="opciones">
+                        <li><a id="0" class="dropdown-item" href="#">My Hero Academia</a></li>
+                        <li><a id="1" class="dropdown-item" href="#">Violet Evergarden</a></li>
+                        <li><a id="2" class="dropdown-item" href="#">Death Note</a></li>
+                        <li><a id="3" class="dropdown-item" href="#">Spy x family</a></li>
+                        <li><a id="4" class="dropdown-item" href="#">Tensei Shitara Slime</a></li>
+                        </div>
                     </ul>
                   </li>
                 </ul>
@@ -36,7 +38,7 @@
           <!-- CUERPO -->
           <div id="contenedor">
             <div id="fondo">
-              <div id="texto">
+              <div id="texto" style="display: none;">
                 <div id="nombre">Nombre</div>
                 <div id="genero">Genero</div>
                 <div id="descripcion">Descripción</div>
@@ -45,6 +47,15 @@
               </div>
             </div>
           </div>
+          <script src="./dynamics/js/index.js"></script>
           <script src="./libs/bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
     </body>
 </html>
+
+
+<!--eran los id que al principio le puse a las opciones pero me arrepentí, los dejo apartados por si en algun futuro los requerimos
+ id="tenseiS"
+id="spyX"
+id="deathNote"
+id="violetEv"
+id="myHero" -->
