@@ -22,7 +22,7 @@
     1. CSS
  
  - Rommel
-    1. 
+    1. Creación e impresión de peticiones.
 
 - Jesús
     1. CSS
