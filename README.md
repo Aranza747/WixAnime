@@ -20,7 +20,7 @@
     1. CSS
  
  - Rommel
-    1. CSS
+    1. 
 
 - Jesús
     1. CSS
