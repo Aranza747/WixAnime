@@ -11,19 +11,19 @@
     1. 
 
 - Aurora Balseira
-    1. 
+    1. Creación e impresión de peticiones.
 
 - Daniel Servín
     1. 
 
 - Ricardo
-    1. 
+    1. CSS
  
  - Rommel
     1. 
 
 - Jesús
-    1. 
+    1. CSS
 
 - Santiago González
     1. 
