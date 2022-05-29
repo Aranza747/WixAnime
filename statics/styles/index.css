@@ -3,8 +3,14 @@
     src: url("../fonts/animetitles.ttf");
 }
 
+@font-face{
+    font-family: "texto";
+    src: url("../fonts/texto.ttf");
+}
+
+
 body{
-    background-color: #ffc0cb;
+    background-color: #ff8698;
 }
 
 #nav {
@@ -24,7 +30,8 @@ body{
     padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
     clear: both;
     font-weight: 400;
-    color: var(--bs-dropdown-link-color);
+    /* color: var(--bs-dropdown-link-color); */
+    color:rgb(255, 0, 162);
     text-align: inherit;
     text-decoration: none;
     white-space: nowrap;
@@ -33,6 +40,7 @@ body{
 }
 
 .dropdown-item{
+    color: rgb(151, 0, 113);
     font-size: smaller;
 }
 
@@ -49,4 +57,13 @@ body{
 
 #texto{
     margin: 15%;
+}
+
+.info_padre{
+    padding: 10%;
+    /* height: 200px;
+    width: 200px; */
+    background-color: rgb(114, 217, 238) !important;
+    font-family: "texto", 'Courier New', serif;
+    font-weight: bolder;
 }
