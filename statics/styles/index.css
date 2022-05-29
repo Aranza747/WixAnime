@@ -10,7 +10,7 @@
 
 
 body{
-    background-color: #ff8698;
+    background-color: #d8d6c3c4;
 }
 
 #nav {
@@ -39,6 +39,10 @@ body{
     border: 0;
 }
 
+.navbar-brand{
+    text-shadow: 3px 2px white;
+}
+
 .dropdown-item{
     color: rgb(151, 0, 113);
     font-size: smaller;
@@ -50,9 +54,13 @@ body{
 }
 #fondo{
     /* display: flex; */
-    width: 50em;
-    height: 100em;
-    background-color: antiquewhite;
+    width: 70em;
+    height: 120em;
+    background-color: rgba(126, 240, 255, 0.776);
+    border-style:double;
+    border-width: 7px;
+    /* border-color: rgba(255,192,203,255); */
+    border-color: rgb(255, 255, 255);
 }
 
 #texto{
@@ -63,7 +71,12 @@ body{
     padding: 10%;
     /* height: 200px;
     width: 200px; */
-    background-color: rgb(114, 217, 238) !important;
+    background-color: rgba(212, 208, 255, 0.833) !important;
     font-family: "texto", 'Courier New', serif;
     font-weight: bolder;
+    border-radius: 6%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 2px rgb(179, 177, 177);
 }
