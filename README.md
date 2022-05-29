@@ -15,7 +15,8 @@
     1. Creación e impresión de peticiones.
 
 - Daniel Servín
-    1. 
+    1. Apoyo en diseño (CSS) 
+    2. Intento de añadir imagen y ocultarla del menú principal cuando se despliegue la info de algún anime
 
 - Ricardo
     1. CSS
