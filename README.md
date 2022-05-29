@@ -23,7 +23,7 @@
     1. CSS
 
 - Jesús
-    1. 
+    1. CSS
 
 - Santiago González
     1. 
