@@ -51,6 +51,7 @@ body{
 #contenedor{
     display: flex;
     justify-content: center;
+    
 }
 #fondo{
     /* display: flex; */
@@ -68,6 +69,7 @@ body{
 }
 
 .info_padre{
+    
     padding: 10%;
     /* height: 200px;
     width: 200px; */
@@ -79,4 +81,15 @@ body{
     border-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     text-shadow: 3px 2px rgb(179, 177, 177);
+    
 }
+
+/* #axo{
+    width: 400px;
+    height: 400px;
+    background-color:rgb(255, 0, 162);
+    position: relative;
+    left: 250px;
+    top: 250px; 
+    
+} */
