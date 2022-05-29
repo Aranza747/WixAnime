@@ -5,6 +5,7 @@
 - Gloria Aranza Reyes Romero
     1. Creación de archivos iniciales
     2. CSS
+    3. Peticiones
 
 - Ilse Baños
     1. 
