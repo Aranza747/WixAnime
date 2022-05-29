@@ -16,8 +16,8 @@ window.addEventListener("load", () =>{
         })
         .then((datosJSON)=>{
             console.log(datosJSON);
-            /*if(anime_elegido.id === '0'){
-                texto.style.display = "block";*/
+            if(anime_elegido.id === '0'){
+                texto.style.display = "block";
                 //console.log(evento.target.id)
                 //console.log()
                 /*fetch("dynamics/php/anime.php?id="+0)
@@ -26,8 +26,8 @@ window.addEventListener("load", () =>{
             /*let selectTipos = document.getElementById("select-tipos");
             for(tipo of datosJSON){
                 console.log("si")
-                selectTipos.innerHTML+="<option value='"+tipo.id+"'>"+tipo.nombre+"</option>";
-            }*/
+                selectTipos.innerHTML+="<option value='"+tipo.id+"'>"+tipo.nombre+"</option>";*/
+            }
         });
         
         

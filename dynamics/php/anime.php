@@ -10,20 +10,19 @@ if(!$con)
 else
 {
     //echo "si se pudo conectar";
-    $id=$_POST['id'];
+    $id=(isset($_POST['id']) && $_POST["id"] != "")? $_POST['id'] : false;
 
     $sql = "SELECT id_anime, nombre, descripcion, publicacion FROM anime WHERE id_anime = '$id'";
     $res = mysqli_query($con, $sql);
 
     $resultados = [];
-    $row = mysqli_fetch_assoc($res)
-    $resultados[] = $row /*array("id" => $row["id_anime"],"nombre" => $row["nombre"],"descripcion" => $row["descripcion"],"publicacion" => $row["publicacion"])*/;
 
-    /*if($res == true){
-      echo "Se pudo";
+    if($res == true){
+      $row = mysqli_fetch_assoc($res);
+      $resultados[] = $row;
     }else{
       echo mysqli_error($con);
-    }*/
+    }
   
     echo json_encode($resultados);
 }
