@@ -23,7 +23,7 @@ window.addEventListener("load", () =>{
                 genero.innerHTML = "Genero:<div class='info'>"+datosJSON.genero+"</div>";
                 descripcion.innerHTML = "Descripción:<div class='info'>"+datosJSON.descripcion+"</div>";
                 publicacion.innerHTML = "Publicación:<div class='info'>"+datosJSON.publicacion+"</div>";
-                personajes.innerHTML = "Personajes: <div class='info'>"+datosJSON.personajes+"</div>"
+                // personajes.innerHTML = "Personajes: <div class='info'>"+datosJSON.personajes+"</div>"
                 texto.style.display = "block";
             }
         });
