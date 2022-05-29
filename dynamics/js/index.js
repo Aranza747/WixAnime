@@ -6,6 +6,7 @@ window.addEventListener("load", () =>{
     const descripcion = document.getElementById("descripcion");
     const publicacion = document.getElementById("publicacion");
     const personajes = document.getElementById("personajes");
+    // const axo = document.getElementById("axo");
     // const myHero = document.getElementById("0") //los id son numeros que corresponden al id en las tablas 
     // const violetEv = document.getElementById("1")
     // const deathNote = document.getElementById("2")
@@ -23,12 +24,15 @@ window.addEventListener("load", () =>{
         .then((datosJSON)=>{
             if(datosJSON){
                 texto.style.display = "block";
+                
                 // nombre.innerHTML = "";
             }
         });
         
         
     })
+    
+    
 
     //profe
     /*divResultados.addEventListener("click", (evento)=>{
