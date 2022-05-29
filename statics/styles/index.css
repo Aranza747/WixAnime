@@ -1,15 +1,24 @@
+@font-face {
+    font-family: "animetitles";
+    src: url("../fonts/animetitles.ttf");
+}
+
 body{
     background-color: #ffc0cb;
 }
+
 #nav {
     /* display: block ; */
     background-color: rgb(255, 129, 150) ;
     background-image: url("../img/ajofondo.png") !important;
     background-size: 60px 60px;
     background-position: center;
+    font-family: "animetitles", 'Courier New', cursive;
+    font-weight: bolder;
     /* position: fixed; */
 }
 .dropdownItem {
+    font-family: "animetitles", 'Courier New', cursive;
     display: block;
     width: 100%;
     padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
@@ -22,6 +31,11 @@ body{
     background-color: transparent;
     border: 0;
 }
+
+.dropdown-item{
+    font-size: smaller;
+}
+
 #contenedor{
     display: flex;
     justify-content: center;
@@ -31,4 +45,8 @@ body{
     width: 50em;
     height: 100em;
     background-color: antiquewhite;
+}
+
+#texto{
+    margin: 15%;
 }
