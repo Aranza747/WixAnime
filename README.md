@@ -11,7 +11,7 @@
     1. 
 
 - Aurora Balseira
-    1. 
+    1. Creación e impresión de peticiones.
 
 - Daniel Servín
     1. 
