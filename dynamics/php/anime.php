@@ -9,7 +9,7 @@ if(!$con)
 }
 else
 {
-    echo "si se pudo conectar";
+    //echo "si se pudo conectar";
     $sql = "SELECT * FROM anime";
     $res = mysqli_query($con, $sql);
     $resultados = [];
