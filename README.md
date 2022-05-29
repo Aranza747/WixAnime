@@ -8,7 +8,8 @@
     3. Peticiones
 
 - Ilse Baños
-    1. 
+    1. Conexión con la BD
+    2. Inicio de peticiones
 
 - Aurora Balseira
     1. Creación e impresión de peticiones.
