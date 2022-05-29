@@ -1,5 +1,11 @@
 window.addEventListener("load", () =>{
     const opciones = document.getElementById("opciones");
+    const texto = document.getElementById("texto");
+    const nombre = document.getElementById("nombre");
+    const genero = document.getElementById("genero");
+    const descripcion = document.getElementById("descripcion");
+    const publicacion = document.getElementById("publicacion");
+    const personajes = document.getElementById("personajes");
     // const myHero = document.getElementById("0") //los id son numeros que corresponden al id en las tablas 
     // const violetEv = document.getElementById("1")
     // const deathNote = document.getElementById("2")
@@ -15,18 +21,9 @@ window.addEventListener("load", () =>{
             return response.json();
         })
         .then((datosJSON)=>{
-            console.log(datosJSON);
-            if(anime_elegido.id === '0'){
+            if(datosJSON){
                 texto.style.display = "block";
-                //console.log(evento.target.id)
-                //console.log()
-                /*fetch("dynamics/php/anime.php?id="+0)
-                fetch("dynamics/php/anime.php")*/
-            //}
-            /*let selectTipos = document.getElementById("select-tipos");
-            for(tipo of datosJSON){
-                console.log("si")
-                selectTipos.innerHTML+="<option value='"+tipo.id+"'>"+tipo.nombre+"</option>";*/
+                // nombre.innerHTML = "";
             }
         });
         
@@ -55,7 +52,7 @@ window.addEventListener("load", () =>{
         }
     });*/
 
-})
+});
 
 
 
